@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ListView Example',
+      title: 'Daftar Barang',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final List<Map<String, String>> items = List.generate(
-   50,
-        (index) => {
+    100,
+    (index) => {
       'title': 'Item $index',
       'subtitle': 'Subtitle $index',
     },
